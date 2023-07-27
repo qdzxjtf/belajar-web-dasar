@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: hsl(0, 0%, 90%);
+  background: hsl(0, 0%, 100%);
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
@@ -25,19 +25,19 @@ main {
 }
 
 #content {
-  float: left;
-  width: 75%
+  float: right;
+  width: 100%
 }
 
 .jumbotron {
-  background: url("../img/IMG_20210605_160201.jpg");
+  background: url("../img/home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: 1400px;
   padding: 240px 0 240px 0;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: -20px;
 }
 
@@ -52,8 +52,15 @@ main {
   padding: 5px;
 }
 
+.card1 {
+  background-color: #271313;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px
+}
 .card {
-  background-color: #fff;
+  background-color: #030000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
   border-radius: 5px;
   padding: 20px;
@@ -117,7 +124,7 @@ ul li {
 
 .logo {
   display: inline-block;
-  width: 65%;
+  width: 25%;
   margin-top: 15px;
   margin-left: 20px;
 }
@@ -128,7 +135,7 @@ ul li {
   top: 10px;
   right: 20px;
   cursor: pointer;
-  color: rgba(216, 216, 216, 0.84);
+  color: rgba(153, 28, 28, 0.84);
   font-size: 24px;
 }
 
